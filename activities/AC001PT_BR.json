@@ -1,0 +1,143 @@
+{
+    "activityInfoId" : "þ",
+    "activityScore" : 100,
+    "title": "Aprendendo a se planejar",
+    "subtitle": "Connie quer muito ir ao cinema com seus amigos, mas para isso, ela precisa montar um orçamento para o passeio - e ela não sabe como fazer isso!",
+    "question": "Você está pronta para ajudá-la?",
+    "nameOcorrences" : [1],
+    "steps": [
+        {
+            "pageType": "multiple-choices",
+            "content" :
+            {
+                "context": "Depois de escolher o filme a Connie ainda precisa escolher o tipo do ingresso que vai comprar e qual lanche vai querer.",
+                "question": "O que você acha que ela deveria fazer primeiro?",
+                "options": [
+                    {
+                        "title": "Levar todo o dinheiro do seu cofrinho",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    },
+                    {
+                        "title": "Pesquisar quais são os preços da  ingresso e lanche, e quais cinemas estão disponíveis.",
+                        "response": "É isso ai! Boa ideia, dessa forma você vai conseguir se preparar e organizar bem seu dinheiro!"
+                    },
+                    {
+                        "title": "Levar R$50 e não pesquisar os preços das atividades que vai querer fazer",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    }
+                ],
+                "correctIndex" : 1,
+                "pontuation" : 50
+            }
+        },
+        {
+            "pageType" : "response-intro",
+            "content" : {
+                "texts" : [
+                    "Ótima ideia, @CHILD_NAME$!",
+                    "É importante pesquisar bem antes de sair com os seus amigos para evitar gastos desnecessários.",
+                    "A Connie fez uma pesquisa sobre os ingressos para o filme “Divertidamente” primeiro e encontrou...."            
+                ]
+            }
+        },
+        {
+            "pageType": "multiple-choices",
+            "content" :
+            {
+                "context": "Ela não faz questão de que o filme seja 3D e pode dividir o combo de ingressos com mais 2 amigos!",
+                "question": "Qual opção você acha que seria a melhor?",
+                "options": [
+                    {
+                        "title": "Ingresso normal - R$20",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    },
+                    {
+                        "title": "Ingresso 3D - R$25",
+                        "response": "É isso ai! Boa ideia, dessa forma você vai conseguir se preparar e organizar bem seu dinheiro!"
+                    },
+                    {
+                        "title": "Combo: 3 ingressos normais - R$45",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    }
+                ],
+                "correctIndex" : 2,
+                "pontuation" : 50
+            }
+        },
+        {
+            "pageType" : "response-intro",
+            "content" : {
+                "texts" : [
+                    "Um ingresso mais barato não significa que o seu filme não será divertido!",
+                    "Depois de decidir o valor do ingresso, o próximo passo é escolher onde ela e seus amigos irão lanchar (até porque, ninguém é de ferro...)"
+                ]
+            }
+        },
+        {
+            "pageType": "multiple-choices",
+            "content" :
+            {
+                "context": "A Connie não tem certeza do que vai comer durante o filme, mas quer um lanche delicioso e quer também **economizar no passeio**.",
+                "question": "Qual opção de lanchonete ela deveria escolher?",
+                "options": [
+                    {
+                        "title": "**Lanchonete 1 ($$$):** Vende comidinhas artesanais e deliciosas que custam entre R$40 e R$60",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    },
+                    {
+                        "title": "**Lanchonete 2 ($):** Vende comidinhas que às vezes não estão tão boas, mas que custam entre R$10 e R$20",
+                        "response": "É isso ai! Boa ideia, dessa forma você vai conseguir se preparar e organizar bem seu dinheiro!"
+                    },
+                    {
+                        "title": "**Lanchonete 3 ($$):** Vende comidinhas  deliciosas que custam entre R$20 e R$40",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    }
+                ],
+                "correctIndex" : 0,
+                "pontuation" : 50
+            }
+        },
+        {
+            "pageType" : "response-intro",
+            "content" : {
+                "texts" : [
+                    "Legal! Mas imagina se quando a Connie chegasse no cinemaz, o preço de todos os ingressos tivessem aumentado? ",
+                    "É importante ela se planejar para imprevistos também!"
+                ]
+            }
+        },
+        {
+            "pageType": "multiple-choices",
+            "content" :
+            {
+                "context": "",
+                "question": "Tendo em vista a possibilidade de imprevistos acontecerem, o que você aconselha a ela?",
+                "options": [
+                    {
+                        "title": "Levar uma quantia dinheiro a mais, caso ela precise em uma emergência",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    },
+                    {
+                        "title": "Levar somente o valor do ingresso e do lanche que ela pesquisou antes de sair de casa",
+                        "response": "É isso ai! Boa ideia, dessa forma você vai conseguir se preparar e organizar bem seu dinheiro!"
+                    },
+                    {
+                        "title": "Não vão acontecer imprevistos, vamos apostar!",
+                        "response": "Tem certeza que quer escolher essa opção? Você não acha que pode acabar gastando mais do que o necessário?"
+                    }
+                ],
+                "correctIndex" : 0,
+                "pontuation" : 50
+            }
+        },
+        {
+            "pageType": "resume-block",
+            "content" : {
+                "texts" : [
+                    "Agora, vamos só conferir quanto a Connie deveria levar para o passeio, no total? Aqui a lista dela:"
+                ],
+                "resumeBlocks" : [2, 4, 6]
+            }
+        }
+    ]
+}
